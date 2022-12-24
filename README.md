@@ -26,6 +26,6 @@
 
 - Amazon API Gateway - Differ Between REST - HTTP API
 
-  <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html"></a>
+  - <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html">Differ To REST vs HTTP</a>
 
 - Amazon API Gateway WalkThrough with AWS Management Console
