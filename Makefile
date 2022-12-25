@@ -6,7 +6,7 @@ get-todolist-id:
 
 post-todolist:
 	curl -X POST https://mz1z5dx37l.execute-api.ap-northeast-2.amazonaws.com/dev/todolist \
-	-d "{"body" : {"title" : "title", "desc" : "desc" , "created_at": 1000}}"
+	-d "{"title" : "title", "desc" : "desc" , "created_at": 1000}"
 
 del-todolist-id:
 	curl -X DELETE https://mz1z5dx37l.execute-api.ap-northeast-2.amazonaws.com/dev/todolist?id=1
