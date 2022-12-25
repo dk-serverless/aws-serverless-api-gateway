@@ -45,7 +45,7 @@ const executeDeployCommand = (funcHandler) => {
   const isExist = JSON.parse(shell.exec('aws lambda list-functions'))['Functions'].some((item) => item['FunctionName'] === funcHandler)
 
   // make zip
-  shell.exec(`rm -rf function.zip && zip function.zip ./* -x node_modules`)
+  shell.exec(`rm -rf function.zip && zip function.zip ./* -x node_modules public *.json *.txt Makefile *.md command.js`)
 
   // if) check to exists func
   if (!isExist) {

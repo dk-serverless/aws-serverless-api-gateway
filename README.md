@@ -37,3 +37,15 @@
     - DELTE todolist/{id}
 
 - Amazon API Gateway WalkThrough with AWS Management Console
+
+## MicroService on REST API And Lambda
+
+### Architecture
+
+- Clients (Req, Res) -> REST API (Req, Http Method, Path Params, Query String, Body) -> AWS Lambda -> DynamoDB
+
+> API Gateway
+
+<div>
+  <img src="public/gateway.png"></img>
+</div>

@@ -5,10 +5,13 @@
  * DELETE /todolist/{id}
  */
 
-const cacheTodo = {}
-
-export const handler = async (event) => {
+export const todolistHandler = async (event) => {
   console.log('[EVENT] : ', JSON.stringify(event, null, 2))
-}
+  // TODO implement
 
-const getPath = (e) => {}
+  const response = {
+    statusCode: 200,
+    body: `Hello world \n${JSON.stringify(event, null, 4)}`,
+  }
+  return response
+}
