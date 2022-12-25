@@ -28,4 +28,12 @@
 
   - <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html">Differ To REST vs HTTP</a>
 
+- HTTP API Concepts
+
+  - 하나의 HTTP API로 여러개의 path를 구성할 수 있다.
+    - GET todolist
+    - POST todolist/{id}
+    - POST todolist
+    - DELTE todolist/{id}
+
 - Amazon API Gateway WalkThrough with AWS Management Console
